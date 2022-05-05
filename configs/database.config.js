@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 mongoose
   //                               the name of our database
   //                                   |
-  .connect('mongodb://localhost/post-req-body-dev-example')
+  .connect('mongodb+srv://pdellacassa:7deabril-@cluster0.tevzt.mongodb.net/movies?retryWrites=true&w=majority')
   .then(x =>
     console.log(`Connected to Mongo! Database name: "${x.connections[0].name}"`)
   )
